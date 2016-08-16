@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abithhussainh.calculator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launchers"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".FirstPage">
+            <intent-filter>
+                <action android:name="com.example.abithhussainh.calculator.FIRSTPAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SecondPage">
+            <intent-filter>
+                <action android:name="com.example.abithhussainh.calculator.SECONDPAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+            <activity android:name=".ThirdPage">
+                <intent-filter>
+                    <action android:name="com.example.abithhussainh.calculator.THIRDPAGE" />
+
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
+            </activity>
+
+        <activity android:name=".Fourth">
+            <intent-filter>
+                <action android:name="com.example.abithhussainh.calculator.FOURTH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Fifth">
+            <intent-filter>
+                <action android:name="com.example.abithhussainh.calculator.FIFTH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+
+    </application>
+
+</manifest>

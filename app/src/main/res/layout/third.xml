@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/subt"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/ed1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/ed2"
+        android:layout_below="@+id/ed1"
+        android:layout_alignRight="@+id/ed1"
+        android:layout_alignEnd="@+id/ed1" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:background="@color/colorWhite"
+        android:text="OK"
+        android:id="@+id/tv1"
+        android:layout_marginTop="88dp"
+        android:layout_below="@+id/ed2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="ANSWER"
+        android:id="@+id/tv2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="53dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/mu"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/ed1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="175dp" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/ed2"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/ed1"
+        android:layout_alignEnd="@+id/ed1" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ANSWER"
+        android:textColor="@color/colorHUM"
+        android:id="@+id/tv2"
+        android:layout_marginBottom="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:linksClickable="true"
+        android:textColor="@color/colorREDII"
+        android:id="@+id/tv1"
+        android:layout_below="@+id/ed2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="53dp" />
+</RelativeLayout>

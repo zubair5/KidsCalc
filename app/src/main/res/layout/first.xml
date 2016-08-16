@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/bg2car"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:background="@drawable/addi"
+        android:id="@+id/i1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="43dp"
+        android:layout_above="@+id/i3"
+        android:layout_toRightOf="@+id/i2"
+        android:layout_toEndOf="@+id/i2" />
+
+    <ImageButton
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:background="@drawable/sub"
+        android:id="@+id/i2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp" />
+
+    <ImageButton
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:background="@drawable/mul"
+        android:id="@+id/i3"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:layout_alignTop="@+id/i2"
+        android:layout_toRightOf="@+id/i1"
+        android:layout_toEndOf="@+id/i1" />
+
+    <ImageButton
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:background="@drawable/div"
+        android:id="@+id/i4"
+        android:layout_below="@+id/i2"
+        android:layout_alignLeft="@+id/i1"
+        android:layout_alignStart="@+id/i1"
+        android:layout_marginTop="30dp" />
+</RelativeLayout>
